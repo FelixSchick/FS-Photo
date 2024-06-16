@@ -1,0 +1,66 @@
+.hero-image {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.hero-text p {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.solid-seperator {
+  border-top: 1px solid rgb(255, 255, 255);
+  border-radius: 1px;
+}
+
+.arrow {
+  z-index: 1;
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  height: 2.5vw;
+  width: 2.5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 2px 2px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.arrow button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

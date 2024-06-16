@@ -1,0 +1,56 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    min-height: 10vh;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+
+    z-index: 999;
+
+}
+
+.navbar--visible {
+    background-color: rgba(27, 27, 27, 0.75);
+}
+
+nav .name {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav .logo {
+    display: block;
+    width: 22px;
+}
+
+nav .logo img {
+    width: 80px;
+}
+
+
+nav .nav-links {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    width: 32%;
+    padding: 0;
+    z-index: 99
+}
+
+nav .nav-links a {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    color: #fff;
+    padding: 0;
+}
+
+nav .nav-links a:hover {
+    border-bottom: 1px solid #fff;
+}
