@@ -23,8 +23,8 @@ function NavBar() {
   }, []);
 
   return (
-    <div className={`navbar ${show ? "navbar--visible" : "navbar--hidden"}`}>
-      <nav>
+    <div>
+      <nav className={`navbar ${show ? "navbar--visible" : "navbar--hidden"}`}>
         <div className="logo">
           <RouterLink to="/">
             <img src={logo} alt="Logo" />

@@ -1,10 +1,10 @@
-import AboutMe from "../components/AboutMe";
+import MyWork from "../components/MyWork";
 
 function Home() {
   return (
     <>
       <div>
-        <AboutMe />
+        <MyWork />
       </div>
     </>
   );
