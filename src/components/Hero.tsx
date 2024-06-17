@@ -17,7 +17,6 @@ function Hero() {
           smooth={true}
           offset={50}
           duration={500}
-          onClick={() => console.log("test")}
         >
           <div className="arrow" />
         </Link>

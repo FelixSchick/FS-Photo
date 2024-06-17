@@ -1,20 +1,30 @@
-nav {
+.navbar {
     position: fixed;
     top: 0;
+    width: 100%;
+    transition: background-color 1.5s;
+    background-color: rgb(0, 0, 0, 0);
+
+    z-index: 999;
+}
+
+@media all and (max-width: 550px) {
+    .navbar {
+        transition: background-color 0.5s;  
+    }
+}    
+
+nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
     min-height: 10vh;
     align-items: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-
-    z-index: 999;
-
 }
 
 .navbar--visible {
-    background-color: rgba(27, 27, 27, 0.75);
+    background-color: rgba(27, 27, 27, 2);
 }
 
 nav .name {
